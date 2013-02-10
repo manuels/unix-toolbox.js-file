@@ -14,7 +14,7 @@
 #define HAVE_ASCTIME_R 1
 
 /* Define to 1 if you have the `asprintf' function. */
-#define HAVE_ASPRINTF 1
+//#define HAVE_ASPRINTF 1
 
 /* Define to 1 if you have the `ctime_r' function. */
 #define HAVE_CTIME_R 1
@@ -52,7 +52,7 @@
 #define HAVE_GETOPT_H 1
 
 /* Define to 1 if you have the `getopt_long' function. */
-#define HAVE_GETOPT_LONG 1
+//#define HAVE_GETOPT_LONG 1
 
 /* Define to 1 if you have the `getpagesize' function. */
 #define HAVE_GETPAGESIZE 1
@@ -73,10 +73,10 @@
 #define HAVE_LOCALE_H 1
 
 /* Define to 1 if mbrtowc and mbstate_t are properly declared. */
-#define HAVE_MBRTOWC 1
+//#define HAVE_MBRTOWC 1
 
 /* Define to 1 if <wchar.h> declares mbstate_t. */
-#define HAVE_MBSTATE_T 1
+//#define HAVE_MBSTATE_T 1
 
 /* Define to 1 if you have the <memory.h> header file. */
 #define HAVE_MEMORY_H 1
@@ -100,7 +100,7 @@
 #define HAVE_STDLIB_H 1
 
 /* Define to 1 if you have the `strerror' function. */
-#define HAVE_STRERROR 1
+//#define HAVE_STRERROR 1
 
 /* Define to 1 if you have the <strings.h> header file. */
 #define HAVE_STRINGS_H 1
@@ -121,7 +121,7 @@
 #define HAVE_STRTOF 1
 
 /* Define to 1 if you have the `strtoul' function. */
-#define HAVE_STRTOUL 1
+//#define HAVE_STRTOUL 1
 
 /* HAVE_STRUCT_OPTION */
 #define HAVE_STRUCT_OPTION 1
@@ -172,16 +172,16 @@
 #define HAVE_UTIME 1
 
 /* Define to 1 if you have the `utimes' function. */
-#define HAVE_UTIMES 1
+//#define HAVE_UTIMES 1
 
 /* Define to 1 if you have the <utime.h> header file. */
 #define HAVE_UTIME_H 1
 
 /* Define to 1 if you have the `vasprintf' function. */
-#define HAVE_VASPRINTF 1
+//#define HAVE_VASPRINTF 1
 
 /* Define to 1 if you have the `vfork' function. */
-#define HAVE_VFORK 1
+//#define HAVE_VFORK 1
 
 /* Define to 1 if you have the <vfork.h> header file. */
 /* #undef HAVE_VFORK_H */
@@ -191,19 +191,19 @@
 #define HAVE_VISIBILITY 1
 
 /* Define to 1 if you have the <wchar.h> header file. */
-#define HAVE_WCHAR_H 1
+//#define HAVE_WCHAR_H 1
 
 /* Define to 1 if you have the <wctype.h> header file. */
-#define HAVE_WCTYPE_H 1
+//#define HAVE_WCTYPE_H 1
 
 /* Define to 1 if you have the `wcwidth' function. */
-#define HAVE_WCWIDTH 1
+//#define HAVE_WCWIDTH 1
 
 /* Define to 1 if `fork' works. */
-#define HAVE_WORKING_FORK 1
+//#define HAVE_WORKING_FORK 1
 
 /* Define to 1 if `vfork' works. */
-#define HAVE_WORKING_VFORK 1
+//#define HAVE_WORKING_VFORK 1
 
 /* Define to 1 if you have the <zlib.h> header file. */
 #define HAVE_ZLIB_H 1
