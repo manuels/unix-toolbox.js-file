@@ -4,3 +4,6 @@
 [submodule "libc"]
 	path = libc
 	url = ../libc
+[submodule "toolbox-base"]
+	path = toolbox-base
+	url = ../../base
