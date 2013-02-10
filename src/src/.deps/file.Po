@@ -41,7 +41,6 @@ file.o: file.c file.h ../config.h \
   /home/manuel/Projekte/emscripten/system/include/libc/string.h \
   /home/manuel/Projekte/emscripten/system/include/libc/sys/string.h \
   /home/manuel/Projekte/emscripten/system/include/libc/locale.h \
-  /home/manuel/Projekte/emscripten/system/include/libc/wchar.h \
   /home/manuel/Projekte/emscripten/system/include/libc/getopt.h \
   file_opts.h
 
@@ -134,8 +133,6 @@ magic.h:
 /home/manuel/Projekte/emscripten/system/include/libc/sys/string.h:
 
 /home/manuel/Projekte/emscripten/system/include/libc/locale.h:
-
-/home/manuel/Projekte/emscripten/system/include/libc/wchar.h:
 
 /home/manuel/Projekte/emscripten/system/include/libc/getopt.h:
 

@@ -46,7 +46,7 @@
 #define HAVE_FSEEKO 1
 
 /* Define to 1 if you have the `getline' function. */
-#define HAVE_GETLINE 1
+//#define HAVE_GETLINE 1
 
 /* Define to 1 if you have the <getopt.h> header file. */
 #define HAVE_GETOPT_H 1
@@ -100,7 +100,7 @@
 #define HAVE_STDLIB_H 1
 
 /* Define to 1 if you have the `strerror' function. */
-//#define HAVE_STRERROR 1
+#define HAVE_STRERROR 1
 
 /* Define to 1 if you have the <strings.h> header file. */
 #define HAVE_STRINGS_H 1
@@ -121,7 +121,7 @@
 #define HAVE_STRTOF 1
 
 /* Define to 1 if you have the `strtoul' function. */
-//#define HAVE_STRTOUL 1
+#define HAVE_STRTOUL 1
 
 /* HAVE_STRUCT_OPTION */
 #define HAVE_STRUCT_OPTION 1

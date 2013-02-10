@@ -39,8 +39,6 @@ funcs.lo: funcs.c file.h ../config.h \
   /home/manuel/Projekte/emscripten/system/include/libc/string.h \
   /home/manuel/Projekte/emscripten/system/include/libc/sys/string.h \
   /home/manuel/Projekte/emscripten/system/include/libc/ctype.h \
-  /home/manuel/Projekte/emscripten/system/include/libc/wchar.h \
-  /home/manuel/Projekte/emscripten/system/include/libc/wctype.h \
   /home/manuel/Projekte/emscripten/system/include/libc/limits.h
 
 file.h:
@@ -128,9 +126,5 @@ magic.h:
 /home/manuel/Projekte/emscripten/system/include/libc/sys/string.h:
 
 /home/manuel/Projekte/emscripten/system/include/libc/ctype.h:
-
-/home/manuel/Projekte/emscripten/system/include/libc/wchar.h:
-
-/home/manuel/Projekte/emscripten/system/include/libc/wctype.h:
 
 /home/manuel/Projekte/emscripten/system/include/libc/limits.h:

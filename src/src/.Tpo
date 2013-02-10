@@ -1,4 +1,4 @@
-magic.lo: magic.c file.h ../config.h \
+magic.lo: getopt_long.c file.h ../config.h \
   /home/manuel/Projekte/emscripten/system/include/libc/stdio.h \
   /home/manuel/Projekte/emscripten/system/include/libc/_ansi.h \
   /home/manuel/Projekte/emscripten/system/include/libc/newlib.h \
@@ -33,15 +33,13 @@ magic.lo: magic.c file.h ../config.h \
   /home/manuel/Projekte/emscripten/system/include/libc/sys/param.h \
   /home/manuel/Projekte/emscripten/system/include/libc/machine/endian.h \
   /home/manuel/Projekte/emscripten/system/include/libc/machine/param.h \
-  magic.h /home/manuel/Projekte/emscripten/system/include/libc/stdlib.h \
+  /home/manuel/Projekte/emscripten/system/include/libc/assert.h \
+  /home/manuel/Projekte/emscripten/system/include/libc/getopt.h \
+  /home/manuel/Projekte/emscripten/system/include/libc/stdlib.h \
   /home/manuel/Projekte/emscripten/system/include/libc/machine/stdlib.h \
   /home/manuel/Projekte/emscripten/system/include/libc/alloca.h \
-  /home/manuel/Projekte/emscripten/system/include/libc/unistd.h \
-  /home/manuel/Projekte/emscripten/system/include/libc/sys/unistd.h \
   /home/manuel/Projekte/emscripten/system/include/libc/string.h \
-  /home/manuel/Projekte/emscripten/system/include/libc/sys/string.h \
-  /home/manuel/Projekte/emscripten/system/include/libc/limits.h \
-  /home/manuel/Projekte/emscripten/system/include/libc/sys/utime.h
+  /home/manuel/Projekte/emscripten/system/include/libc/sys/string.h
 
 file.h:
 
@@ -115,7 +113,9 @@ file.h:
 
 /home/manuel/Projekte/emscripten/system/include/libc/machine/param.h:
 
-magic.h:
+/home/manuel/Projekte/emscripten/system/include/libc/assert.h:
+
+/home/manuel/Projekte/emscripten/system/include/libc/getopt.h:
 
 /home/manuel/Projekte/emscripten/system/include/libc/stdlib.h:
 
@@ -123,14 +123,6 @@ magic.h:
 
 /home/manuel/Projekte/emscripten/system/include/libc/alloca.h:
 
-/home/manuel/Projekte/emscripten/system/include/libc/unistd.h:
-
-/home/manuel/Projekte/emscripten/system/include/libc/sys/unistd.h:
-
 /home/manuel/Projekte/emscripten/system/include/libc/string.h:
 
 /home/manuel/Projekte/emscripten/system/include/libc/sys/string.h:
-
-/home/manuel/Projekte/emscripten/system/include/libc/limits.h:
-
-/home/manuel/Projekte/emscripten/system/include/libc/sys/utime.h:

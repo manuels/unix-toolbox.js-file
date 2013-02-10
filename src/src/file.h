@@ -478,12 +478,13 @@ extern const size_t file_nnames;
 #ifndef HAVE_STRERROR
 extern int sys_nerr;
 extern char *sys_errlist[];
-#define strerror(e) \
-	(((e) >= 0 && (e) < sys_nerr) ? sys_errlist[(e)] : "Unknown error")
+char* strerror(int e) {
+	return (((e) >= 0 && (e) < sys_nerr) ? sys_errlist[(e)] : "Unknown error");
+}
 #endif
 
 #ifndef HAVE_STRTOUL
-#define strtoul(a, b, c)	strtol(a, b, c)
+unsigned long strtoul(const char* a, char **b, int c) {	return strtol(a, b, c); }
 #endif
 
 #ifndef HAVE_VASPRINTF
