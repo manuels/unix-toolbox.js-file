@@ -1,23 +1,5 @@
-MAGIC = $(pkgdatadir)/magic
-lib_LTLIBRARIES = libmagic.la
-include_HEADERS = magic.h
+ACLOCAL_AMFLAGS = -I m4
 
-bin_PROGRAMS = file
+EXTRA_DIST = MAINT
 
-AM_CPPFLAGS = -DMAGIC='"$(MAGIC)"'
-AM_CFLAGS = $(CFLAG_VISIBILITY) @WARNINGS@
-
-libmagic_la_SOURCES = magic.c apprentice.c softmagic.c ascmagic.c \
-	encoding.c compress.c is_tar.c readelf.c print.c fsmagic.c \
-	funcs.c file.h readelf.h tar.h apptype.c \
-	file_opts.h elfclass.h mygetopt.h cdf.c cdf_time.c readcdf.c cdf.h
-libmagic_la_LDFLAGS = -no-undefined -version-info 1:0:0
-if MINGW
-MINGWLIBS = -lgnurx -lshlwapi
-else
-MINGWLIBS = 
-endif
-libmagic_la_LIBADD = $(LTLIBOBJS) $(MINGWLIBS)
-
-file_SOURCES = file.c
-file_LDADD = libmagic.la
+SUBDIRS = src magic tests doc python
