@@ -1,9 +1,9 @@
 [submodule "zlib"]
 	path = zlib
-	url = ../zlib/
+	url = git://github.com/manuels/unix-toolbox.js-zlib.git
 [submodule "libc"]
 	path = libc
-	url = ../libc
+	url = git://github.com/manuels/unix-toolbox.js-libc.git
 [submodule "toolbox-base"]
 	path = toolbox-base
-	url = ../../base
+	url = git://github.com/manuels/unix-toolbox.js-base.git
